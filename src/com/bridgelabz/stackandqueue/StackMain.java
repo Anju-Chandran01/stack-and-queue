@@ -14,5 +14,15 @@ public class StackMain {
         // print Stack elements
         obj.display();
 
+        //peek() and pop()
+        if (obj.isEmpty()){
+            System.out.println("Stack is empty");
+        }else{
+            System.out.println("After peek");
+            System.out.println(obj.peek());
+            obj.pop();
+            System.out.println("The final stack is : ");
+            obj.display();
+        }
     }
 }
